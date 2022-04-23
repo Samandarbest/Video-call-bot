@@ -176,8 +176,8 @@ allcmd = ["start", "help", f"start@{USERNAME}", f"help@{USERNAME}"] + admincmds
 async def not_chat(_, m: Message):
     buttons = [
             [
-                InlineKeyboardButton("CHANNEL", url="https://t.me/sl_bot_zone"),
-                InlineKeyboardButton("SUPPORT", url="https://t.me/slbotzone"),
+                InlineKeyboardButton("CHANNEL", url="https://t.me/slytherin_king"),
+                InlineKeyboardButton("SUPPORT", url="https://t.me/slytherin_king"),
             ],
             [
                 InlineKeyboardButton("Socure", url="https://github.com/youtubeslgeekshow/Video-call-bot"),
